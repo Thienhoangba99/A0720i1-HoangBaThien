@@ -1,0 +1,63 @@
+.Div2:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.Div_chinh{
+    width: 60%;
+    height: 100%;
+    margin: auto;
+}
+.Div2 {
+    background-color: darkblue;
+    text-align: center;
+    height: 100%;
+}
+#Div2 h2{
+    color: #dadada;
+}
+#Div3 h2{
+    text-align: center;
+}
+
+#Div3{
+    float: left;
+    width: 39%;
+    height: 100%;
+    color: white;
+    background-color: darkblue;
+}
+#Div3 li{
+    text-align: left;
+    padding-left: 10px;
+}
+.Div_img{
+    width: 40%;
+    height: 30%;
+    margin: auto ;
+}
+.Div_img #anh{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items :center;
+}
+#thongtin{
+    padding-top: 10%;
+}
+.Div4{
+    background-color: #dcd1ff;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    float: left;
+    width: 60.7%;
+    height: 100%;
+    border: #202123 solid 1px;
+}
+.Div4 p{
+    text-align: left;
+    padding-left: 20px;
+}
