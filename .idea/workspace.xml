@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8d31797-6bff-4fc7-87ad-0adf2b0cb1d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module1/HTML-Form&amp;Amp-Table/BaiTap/BaiTapAnhTrung4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/HTML-Form&amp;Amp-Table/BaiTap/BaiTapAnhTrung5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module1/HTML-Form&amp;Amp-Table/BaiTap/BaiTapAnhHaiGiao.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module1/HTML-Form&amp;Amp-Table/BaiTap/BaiTapAnhHaiGiao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module1/HTML-Form&amp;Amp-Table/BaiTap/BaiTapAnhHaiGiao2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module1/HTML-Form&amp;Amp-Table/BaiTap/BaiTapAnhHaiGiao2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module1/HTML-Form&amp;Amp-Table/BaiTap/Form-so-thich.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/HTML-Form&amp;Amp-Table/BaiTap/Form-so-thich.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module1/HTML-Form&amp;Amp-Table/BaiTap/ĐăngKyHocVIen.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/HTML-Form&amp;Amp-Table/BaiTap/ĐăngKyHocVIen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/Git&amp;HTML/ThucHanh/my-new-project" beforeDir="false" afterPath="$PROJECT_DIR$/module1/Git&amp;HTML/ThucHanh/my-new-project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/Git&amp;HTML/ThucHanh/my-new-project/README.md.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/HTML-Form&amp;Amp-Table/BaiTap/BasicTable2.css" beforeDir="false" afterPath="$PROJECT_DIR$/module1/HTML-Form&amp;Amp-Table/BaiTap/BasicTable2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/HTML-Form&amp;Amp-Table/BaiTap/BasicTable2.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/HTML-Form&amp;Amp-Table/BaiTap/BasicTable2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/HTML-Form&amp;Amp-Table/BaiTap/Bàn-Cờ.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/HTML-Form&amp;Amp-Table/BaiTap/Bàn-Cờ.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/HTML-Form&amp;Amp-Table/BaiTap/calender.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/HTML-Form&amp;Amp-Table/BaiTap/calender.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -34,6 +42,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -48,11 +57,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594961751735</updated>
-      <workItem from="1594961753868" duration="2065000" />
+      <workItem from="1594961753868" duration="4715000" />
+      <workItem from="1594973364237" duration="15361000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="425" y="197" key="run.anything.popup" timestamp="1594975147885">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1594975147885" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1594977028621">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1594977028621" />
   </component>
 </project>

@@ -1,0 +1,23 @@
+.body_2 h4{
+    margin-bottom: 5px;
+}
+#body_1_1{
+    background-color: #dddddd;
+}
+.body_1 tr{
+    height: 60px;
+    border-bottom: 1pt solid black;
+}
+
+select{
+    background-color: #dadada;
+    height: 30px;
+}
+.body_3{
+    height: 50px;
+    padding: 20px 0 0 30px;
+    background-color: #e0e0e0;
+}
+table tr th{
+    padding-left: 10px;
+}
