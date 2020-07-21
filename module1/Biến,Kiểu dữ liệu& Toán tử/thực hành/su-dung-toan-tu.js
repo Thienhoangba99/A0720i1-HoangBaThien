@@ -1,6 +1,7 @@
 function tinhdientich(){
     let inputWidth;
     let inputHeight;
+    let  area;
 
     inputWidth = prompt("Enter the width");
     inputHeight = prompt("Enter the height");
@@ -8,6 +9,6 @@ function tinhdientich(){
     let width = parseInt(inputWidth);
     let height = parseInt(inputHeight);
 
-    let area = width * height;
+    area = width / height;
     document.write("The area is: " + area);
 }
