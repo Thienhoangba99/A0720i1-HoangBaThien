@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai tap 2</title>
+</head>
+<body>
+<button onclick="myFunction()">Nhap Vao A va B</button>
+
+<p id="demo"></p>
+
+<script>
+    function myFunction() {
+        var txt;
+        var A = prompt("A:", "number");
+        var B = prompt("B:", "number");
+        var C = A % B;
+
+        if (C==0){
+            txt ="A la boi so cua B"
+        }else {
+            txt = "A khong phai boi so cua B"
+        }
+        document.getElementById("demo").innerHTML = txt;
+    }
+</script>
+</body>
+</html>
