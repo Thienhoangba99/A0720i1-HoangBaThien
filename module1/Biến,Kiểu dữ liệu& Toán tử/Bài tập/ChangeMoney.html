@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Change </title>
+</head>
+<body>
+<form>
+    <table>
+        <tr>
+            <td>Amount</td>
+            <td>From Currency</td>
+            <td>To Currency</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="money">
+            </td>
+            <td>
+                <select id="Currency">
+                    <option value="VN">VN</option>
+                    <option value="US">US</option>
+                    <option value="UK">UK</option>
+                    <option value="EU">EU</option>
+                </select>
+            </td>
+            <td>
+                <select id="ToCurrency">
+                    <option value="US">US</option>
+                    <option value="VN">VN</option>
+                    <option value="UK">UK</option>
+                    <option value="EU">EU</option>
+                </select>
+            </td>
+            <td>
+                <button type="button" onclick="changemoney()">Change currrency</button>
+            </td>
+        </tr>
+        <tr>
+            <td>So tien da chuyen doi la: </td>
+            <td id="CrAfterChange"></td>
+        </tr>
+    </table>
+</form>
+
+<script src="Changemoney.js"></script>
+</body>
+</html>
