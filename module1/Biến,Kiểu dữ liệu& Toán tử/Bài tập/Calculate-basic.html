@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>may tinh co ban</title>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td colspan="2">
+                    <input type="number" id="Anumber">
+                </td>
+                <td colspan="2">
+                    <input type="number" id="Bnumber">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" onclick="cal(0)" value="+" name="calculate">
+                </td>
+                <td>
+                    <input type="button" onclick="cal(1)" value="-" name="calculate">
+                </td>
+                <td>
+                    <input type="button" onclick="cal(2)" value="*" name="calculate">
+                </td>
+                <td>
+                    <input type="button" onclick="cal(3)" value="/" name="calculate">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <span>ReSult:  </span>
+    <span id="x"></span>
+<script src="Calculate-basic.js"></script>
+</body>
+</html>
