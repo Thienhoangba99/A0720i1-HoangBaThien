@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resort</title>
+    <link rel="stylesheet" href="CaseStudy.css">
+    <script type="text/javascript" src="jquery.js"></script>
+</head>
+<body>
+
+
+<main>
+<div class="container">
+    <!--        Logo-->
+    <div class="logo">
+        <a href=""><img src="https://www.msb.com.vn:8080/razuna/assets/1/EA65B322B235464E98A7D4A148BE9E0C/img/1FEF0701A25140C9A5DB213DFDCF0477/deal_1.jpg" alt="Reort FURAMA"></a>
+        <pre>
+                <i class="fas fa-map-marker-alt"></i>
+                103 – 105 Đường Võ Nguyên Giáp,
+
+                Phường Khuê Mỹ, Quận Ngũ hành Sơn, Tp. Đà Nẵng, Việt Nam
+
+                7.0 km từ Sân bay Quốc tế Đà Nẵng
+            </pre>
+        <p><br>
+            <i class="fas fa-phone"></i>
+            84-236-3847 333/888
+        </p><br><br>
+        <p>
+            <i class="fas fa-envelope"></i>
+            reservation@furamavietnam.com
+        </p>
+    </div>
+    <div class="wrapper-nav" id="main-menu-tto">
+        <nav class="nav-main">
+            <ul class="clearfix">
+                <div class="navbar">
+                    <ul class="nav-header-li-1">
+                        <li><a href="https://furamavietnam.com/vi/the-resort/">Giới Thiệu</a></li>
+                        <li><a href="https://furamavietnam.com/vi/our-rooms/">Loại Phòng</a></li>
+                        <li><a href="https://furamavietnam.com/vi/culinary/">Ẩm Thực</a></li>
+                        <li><a href="https://furamavietnam.com/vi/meeting-and-events/">Hội Nghị Và Sự Kiện</a></li>
+                        <li><a href="https://furamavietnam.com/vi/spa-and-fitness/">Spa</a></li>
+                        <li><a href="https://furamavietnam.com/vi/recreation/">Giải Trí </a></li>
+                        <li><a href="https://furamavietnam.com/vi/destination/">Điểm Đến</a></li>
+                        <li><a href="https://furamavietnam.com/vi/furama-special-offers/">Ưu Đãi</a></li>
+                        <li><a href="https://furamavietnam.com/vi/evoucher/">Evoucher</a></li>
+                    </ul>
+                </div>
+            </ul>
+        </nav>
+    </div>
+
+    <!--        Img background-->
+    <div class="imgback">
+        <img src="https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2020/06/Review-Furama-Resort-Da-Nang-13.jpg" alt="Furama">
+
+    </div>
+    <div  class="content">
+        <div class="content-1">
+        <form action="" method="get">
+            <table class="content-table-1">
+                <tr><h1>THÔNG TIN CÁ NHÂN</h1></tr>
+                <hr>
+                <tr>
+                    <td>First Name:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Surname and middle name:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>ID card number:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Date of birth:</td>
+                    <td><input type="date" style="width: 173px"></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Customer:</td>
+                    <td>
+                        <select style="width: 173px">
+                            <option value="Diamond">Diamond</option>
+                            <option value="Platinum">Platinum</option>
+                            <option value="Gold">Gold</option>
+                            <option value="Silver">Silver</option>
+                            <option value="Menber">Menber</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Discount:</td>
+                    <td><input type="number" id="discount"></td>
+                </tr>
+                <tr>
+                    <td>Quantity comes:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Number of rental days:</td>
+                    <td><input type="number" id="day"></td>
+                </tr>
+                <tr>
+                    <td>Type of service:</td>
+                    <td>
+                        <select style="width: 173px" id="typeRoom">
+                            <option value="V">Villa</option>
+                            <option value="H">House</option>
+                            <option value="R">Room</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Type of room for rent:</td>
+                    <td>
+                        <select style="width: 173px" >
+                            <option value="Vip">Vip</option>
+                            <option value="Business">Business</option>
+                            <option value="Normal">Normal</option>
+                        </select>
+                    </td>
+                </tr>
+
+            </table>
+            <p id="tong"></p>
+            <button type="button" id="regis" onclick="tinhtien()">
+                Registration
+            </button>
+            <p id="tongTien"></p>
+        </form>
+        <hr>
+        <div id="price-1">
+            <table class="price">
+                <tr><th>Price list</th></tr>
+                <tr><td>Villa 500$/1Days</td></tr>
+                <tr><td>House 300$/1Days</td></tr>
+                <tr><td>Room 100$/1Days</td></tr>
+            </table>
+        </div>
+        </div>
+    </div>
+</div>
+
+</main>
+<script src="CaseStudy.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+        $(window).load(function() {
+            if ($('.wrapper-nav').length > 0) {
+                var _top = $('.wrapper-nav').offset().top - parseFloat($('.wrapper-nav').css('marginTop').replace(/auto/, 0));
+                $(window).scroll(function(evt) {
+                    var _y = $(this).scrollTop();
+                    if (_y > 50) {
+                        $('.wrapper-nav').addClass('fixed');
+                        $('.main-1').css("margin-top", "5px")
+                    } else {
+                        $('.wrapper-nav').removeClass('fixed');
+                        $('.main-1').css("margin-top", "0")
+                    }
+                })
+            }
+        });
+    });
+</script>
+</body>
+</html>

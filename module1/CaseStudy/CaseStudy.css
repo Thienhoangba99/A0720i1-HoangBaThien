@@ -1,0 +1,166 @@
+header{
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: auto;
+    /*background-color: navajowhite;*/
+}
+.logo{
+    background-color: white;
+    display: inline-block;
+    width: 100%;
+}
+.logo img{
+    width: 15%;
+    margin-left: 10%;
+    float: left;
+}
+.logo pre{
+    float: left;
+    padding-right: 120px;
+}
+.navbar{
+    width: 100%;
+    background-color: darkcyan;
+    position: fixed;
+    /*    lăn chuột th navbar vẫn thấy*/
+}
+.navbar ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 20px 20px;
+}
+.navbar li{
+    display: inline;
+    margin: 30px 30px;
+}
+.navbar li a{
+    display: inline;
+    text-decoration: none;
+    color: black;
+}
+.navbar a:hover{
+    /*background-color: white;*/
+    color: white;
+}
+.imgback img{
+    width: 100%;
+    position: absolute;
+    z-index: -1 !important;
+}
+.imgback{
+    display: block;
+}
+.content{
+    /*position: relative;*/
+    width: 40%;
+    background-color:hsla(255,255%,255%,0.85);
+    /*z-index: 0 !important;*/
+    font-size: 20px;
+    margin:10% auto;
+}
+.content-1{
+    opacity: 1;
+}
+.price{
+    border-collapse: collapse ;
+    margin: auto;
+    margin-top: 50px;
+}
+.price tr{
+    border: 1px solid black;
+}
+nav {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    transition: align-items .2s;
+}
+
+.wrapper {
+    width: 1500px;
+    margin: 0 auto;
+}
+.wrapper-nav{
+    background: #fff;
+}
+
+.wrapper-nav.fixed {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 7000;
+    box-shadow: 0 0 5px 2px #ccc;
+}
+
+.wrapper-nav.fixed .nav-main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+.nav-main>ul {
+    position: relative;
+    width: 100%;
+    max-width: 980px;
+    padding: 0px;
+    margin: 0px;
+}
+.nav-main>ul>li {
+    list-style: none;
+    float: left;
+    padding: 12px 0 10px;
+    border-bottom: solid 1px #ccc;
+}
+.nav-main>ul>div>li>a {
+    color: #333;
+    font-weight: 700;
+    float: left;
+    font-size: 14px;
+    padding: 1px 3.6px;
+    border-left: solid 1px #ccc;
+    padding-left: 20px;
+}
+h1{
+    text-align: center;
+    padding-top: 15px;
+
+}
+.nav-header-li-1{
+    padding-left: 15px;
+}
+.content-table-1 tr td{
+    padding-left: 60px;
+}
+.price{
+    float: right;
+    background-color: white;
+}
+.price tr td{
+    padding: 5px 10px;
+    text-align: center;
+}
+.price tr th{
+    padding: 5px;
+}
+#regis{
+    margin-left: 10px; width: 400px;
+    margin: 20px auto;
+    margin-left: 15%;
+    padding: 20px;
+    font-size: 13px;
+}
+#price-1{
+}
+#tong{
+    padding-left: 60px;
+    padding-top: 20px;
+}
