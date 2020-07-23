@@ -63,7 +63,7 @@
                 <tr><h1>THÔNG TIN CÁ NHÂN</h1></tr>
                 <hr>
                 <tr>
-                    <td>First Name:</td>
+                    <td style="padding-top: 20px;">First Name:</td>
                     <td><input type="text"></td>
                 </tr>
                 <tr>
@@ -72,7 +72,7 @@
                 </tr>
                 <tr>
                     <td>ID card number:</td>
-                    <td><input type="text"></td>
+                    <td><input type="number"></td>
                 </tr>
                 <tr>
                     <td>Date of birth:</td>
@@ -80,7 +80,7 @@
                 </tr>
                 <tr>
                     <td>Email:</td>
-                    <td><input type="text"></td>
+                    <td><input type="email"></td>
                 </tr>
                 <tr>
                     <td>Address:</td>
@@ -134,17 +134,26 @@
             </table>
             <p id="tong"></p>
             <button type="button" id="regis" onclick="tinhtien()">
-                Registration
+                Tính Tiền
             </button>
             <p id="tongTien"></p>
         </form>
         <hr>
         <div id="price-1">
-            <table class="price">
-                <tr><th>Price list</th></tr>
-                <tr><td>Villa 500$/1Days</td></tr>
-                <tr><td>House 300$/1Days</td></tr>
-                <tr><td>Room 100$/1Days</td></tr>
+            <table class="price" border="1">
+                <tr><th colspan="2">Price list</th></tr>
+                <tr>
+                    <td>Villa</td>
+                    <td>500$/1Days</td>
+                </tr>
+                <tr>
+                    <td>House</td>
+                    <td>300$/1Days</td>
+                </tr>
+                <tr>
+                    <td>Room</td>
+                    <td>100$/1Days</td>
+                </tr>
             </table>
         </div>
         </div>

@@ -141,7 +141,7 @@ h1{
     padding-left: 60px;
 }
 .price{
-    float: right;
+    float: left;
     background-color: white;
 }
 .price tr td{
