@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Resort</title>
-    <link rel="stylesheet" href="CaseStudy.css">
+    <link rel="stylesheet" href="Yeu-Cau-1.css">
     <script type="text/javascript" src="jquery.js"></script>
 </head>
 <body>
@@ -161,25 +161,6 @@
 </div>
 
 </main>
-<script src="CaseStudy.js"></script>
-<script type="text/javascript">
-    jQuery(document).ready(function($) {
-        $(window).load(function() {
-            if ($('.wrapper-nav').length > 0) {
-                var _top = $('.wrapper-nav').offset().top - parseFloat($('.wrapper-nav').css('marginTop').replace(/auto/, 0));
-                $(window).scroll(function(evt) {
-                    var _y = $(this).scrollTop();
-                    if (_y > 50) {
-                        $('.wrapper-nav').addClass('fixed');
-                        $('.main-1').css("margin-top", "5px")
-                    } else {
-                        $('.wrapper-nav').removeClass('fixed');
-                        $('.main-1').css("margin-top", "0")
-                    }
-                })
-            }
-        });
-    });
-</script>
+<script src="Yeu-Cau_1.js"></script>
 </body>
 </html>

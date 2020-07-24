@@ -2,19 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8d31797-6bff-4fc7-87ad-0adf2b0cb1d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/HTML-Form&amp;Amp-Table/BaiTap/BaiTapAnhHaiGiao.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/HTML-Form&amp;Amp-Table/BaiTap/BaiTapAnhHaiGiao.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/HTML-Form&amp;Amp-Table/BaiTap/BaiTapAnhHaiGiao2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/HTML-Form&amp;Amp-Table/BaiTap/BaiTapAnhHaiGiao2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/Biến,Kiểu dữ liệu&amp; Toán tử/Bài tập/Calculate.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/Biến,Kiểu dữ liệu&amp; Toán tử/Bài tập/Calculate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/Biến,Kiểu dữ liệu&amp; Toán tử/Bài tập/ChangeMoney.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/Biến,Kiểu dữ liệu&amp; Toán tử/Bài tập/ChangeMoney.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/Biến,Kiểu dữ liệu&amp; Toán tử/Bài tập/Changemoney.js" beforeDir="false" afterPath="$PROJECT_DIR$/module1/Biến,Kiểu dữ liệu&amp; Toán tử/Bài tập/Changemoney.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/CaseStudy/CaseStudy.css" beforeDir="false" afterPath="$PROJECT_DIR$/Module1_HoangBaThien/CaseStudy1/Yeu-Cau-1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/CaseStudy/CaseStudy.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1_HoangBaThien/CaseStudy1/Yeu-Cau-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/CaseStudy/CaseStudy.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module1_HoangBaThien/CaseStudy1/Yeu-Cau_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/CaseStudy/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module1_HoangBaThien/CaseStudy1/jquery.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module1/Git&amp;HTML/ThucHanh/my-new-project" beforeDir="false" afterPath="$PROJECT_DIR$/module1/Git&amp;HTML/ThucHanh/my-new-project" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module1/Git&amp;HTML/ThucHanh/my-new-project/README.md.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module1/HTML-Form&amp;Amp-Table/BaiTap/BasicTable2.css" beforeDir="false" afterPath="$PROJECT_DIR$/module1/HTML-Form&amp;Amp-Table/BaiTap/BasicTable2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module1/HTML-Form&amp;Amp-Table/BaiTap/BasicTable2.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/HTML-Form&amp;Amp-Table/BaiTap/BasicTable2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module1/HTML-Form&amp;Amp-Table/BaiTap/Bàn-Cờ.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/HTML-Form&amp;Amp-Table/BaiTap/Bàn-Cờ.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module1/HTML-Form&amp;Amp-Table/BaiTap/calender.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/HTML-Form&amp;Amp-Table/BaiTap/calender.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +24,7 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -44,8 +43,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/module1/Biến,Kiểu dữ liệu&amp; Toán tử/Bài tập" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\codegym-1\A0720i1-HoangBaThien\Module_HoangBaThien" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\codegym-1\A0720i1-HoangBaThien\module1\Biến,Kiểu dữ liệu&amp; Toán tử\Bài tập" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -58,7 +65,12 @@
       <option name="presentableId" value="Default" />
       <updated>1594961751735</updated>
       <workItem from="1594961753868" duration="4715000" />
-      <workItem from="1594973364237" duration="15361000" />
+      <workItem from="1594973364237" duration="16323000" />
+      <workItem from="1595315652748" duration="3555000" />
+      <workItem from="1595321962335" duration="19049000" />
+      <workItem from="1595414162480" duration="5915000" />
+      <workItem from="1595497208382" duration="6159000" />
+      <workItem from="1595553117968" duration="1465000" />
     </task>
     <servers />
   </component>
@@ -66,6 +78,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="95" key="#Inspections" timestamp="1595501445237">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="95" key="#Inspections/0.0.1536.864@0.0.1536.864" timestamp="1595501445237" />
+    <state x="223" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595320661660">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="223" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1595320661660" />
+    <state x="406" y="32" key="CommitChangelistDialog2" timestamp="1595400073783">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="406" y="32" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1595400073783" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1595322033838">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.864@0.0.1536.864" timestamp="1595322033838" />
+    <state x="361" y="169" key="Vcs.Push.Dialog.v2" timestamp="1595400081444">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="169" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1595400081444" />
     <state x="425" y="197" key="run.anything.popup" timestamp="1594975147885">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

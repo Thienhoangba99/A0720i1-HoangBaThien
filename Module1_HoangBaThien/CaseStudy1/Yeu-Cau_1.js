@@ -22,6 +22,23 @@ function tinhtien() {
     let S = ((d * price)-((d * price)* (discount/100)));
     document.getElementById("tong").innerHTML="Tong so tien can thanh toan la: " +S;
 }
+jQuery(document).ready(function($) {
+    $(window).load(function() {
+        if ($('.wrapper-nav').length > 0) {
+            var _top = $('.wrapper-nav').offset().top - parseFloat($('.wrapper-nav').css('marginTop').replace(/auto/, 0));
+            $(window).scroll(function(evt) {
+                var _y = $(this).scrollTop();
+                if (_y > 50) {
+                    $('.wrapper-nav').addClass('fixed');
+                    $('.main-1').css("margin-top", "5px")
+                } else {
+                    $('.wrapper-nav').removeClass('fixed');
+                    $('.main-1').css("margin-top", "0")
+                }
+            })
+        }
+    });
+});
 
 
 

@@ -1,14 +1,14 @@
 
 function changemoney() {
 
-    let C=document.getElementById("Currency").value;
-    let TC=document.getElementById("ToCurrency").value;
-    let Money= document.getElementById("money").value;
-    let M= parseFloat(Money);
+    let fromCurrency=document.getElementById("Currency");
+    let toCurrency=document.getElementById("ToCurrency").value;
+    let money= document.getElementById("money").value;
+    let M= parseFloat(money);
     let Cr;
-    let TCr;
+    let TCr;a
     let R;
-    switch(C) {
+    switch(fromCurrency.value) {
         case "US":
             Cr = 1;
             break;
