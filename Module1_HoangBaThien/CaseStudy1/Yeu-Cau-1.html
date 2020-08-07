@@ -63,33 +63,29 @@
                 <tr><h1>THÔNG TIN CÁ NHÂN</h1></tr>
                 <hr>
                 <tr>
-                    <td style="padding-top: 20px;">First Name:</td>
-                    <td><input type="text"></td>
-                </tr>
-                <tr>
-                    <td>Surname and middle name:</td>
-                    <td><input type="text"></td>
+                    <td style="padding-top: 20px;" >Name:</td>
+                    <td><input type="text" id="name"></td>
                 </tr>
                 <tr>
                     <td>ID card number:</td>
-                    <td><input type="number"></td>
+                    <td><input type="number" id="cardNumber"></td>
                 </tr>
                 <tr>
                     <td>Date of birth:</td>
-                    <td><input type="date" style="width: 173px"></td>
+                    <td><input type="date" style="width: 173px" id="dayOfBirth"></td>
                 </tr>
                 <tr>
                     <td>Email:</td>
-                    <td><input type="email"></td>
+                    <td><input type="email" id="email"></td>
                 </tr>
                 <tr>
                     <td>Address:</td>
-                    <td><input type="text"></td>
+                    <td><input type="text" id="address"></td>
                 </tr>
                 <tr>
                     <td>Customer:</td>
                     <td>
-                        <select style="width: 173px">
+                        <select style="width: 173px" id="customer">
                             <option value="Diamond">Diamond</option>
                             <option value="Platinum">Platinum</option>
                             <option value="Gold">Gold</option>
@@ -104,7 +100,7 @@
                 </tr>
                 <tr>
                     <td>Quantity comes:</td>
-                    <td><input type="text"></td>
+                    <td><input type="text" id="quatityCome"></td>
                 </tr>
                 <tr>
                     <td>Number of rental days:</td>
@@ -123,7 +119,7 @@
                 <tr>
                     <td>Type of room for rent:</td>
                     <td>
-                        <select style="width: 173px" >
+                        <select style="width: 173px" id="typeCustomer">
                             <option value="Vip">Vip</option>
                             <option value="Business">Business</option>
                             <option value="Normal">Normal</option>
@@ -136,7 +132,6 @@
             <button type="button" id="regis" onclick="tinhtien()">
                 Tính Tiền
             </button>
-            <p id="tongTien"></p>
         </form>
         <hr>
         <div id="price-1">
