@@ -2,23 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8d31797-6bff-4fc7-87ad-0adf2b0cb1d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module1/Cấu-Trúc-Điều-Kiện-1/Thực-Hành/Kiem-tra-nam-nhuan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/Cấu-Trúc-Điều-Kiện-1/Thực-Hành/Thuc-Hanh-Luyen-Tap-Switch.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/Cấu-Trúc-Điều-Kiện-1/Thực-Hành/ex01.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/Cấu-Trúc-Điều-Kiện-1/Thực-Hành/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/Cấu-Trúc-Điều-Kiện-1/Thực-Hành/sign.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/Cấu-trúc-điều-kiện-2/Bài-Tập/DoYouLoveMe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/Cấu-trúc-điều-kiện-2/Bài-Tập/DoYouLoveMe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/Cấu-trúc-điều-kiện-2/Bài-Tập/Switch-case.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/Cấu-trúc-điều-kiện-2/Bài-Tập/Switch-case.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/Cấu-trúc-điều-kiện-2/Bài-Tập/buzz.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/Cấu-trúc-điều-kiện-2/Thực-Hành/Nobita.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/Cấu-trúc-điều-kiện-2/Thực-Hành/Sự-Kiện-Mouse.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/Cấu-trúc-điều-kiện-2/Thực-Hành/event-mouse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module1/Cấu-trúc-điều-kiện-2/Thực-Hành/nobita.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module1/Cấu-trúc-điều-kiện-2/Bài-Tập/GFC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module1/Cấu-trúc-điều-kiện-2/Bài-Tập/GFC.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module1/Cấu-trúc-điều-kiện-2/Bài-Tập/GamePuzz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module1/Cấu-trúc-điều-kiện-2/Bài-Tập/LTCTDK1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module1/Cấu-trúc-điều-kiện-2/Bài-Tập/LTCTDK2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module1/Cấu-trúc-điều-kiện-2/Bài-Tập/LuyenTapCauTrucDieuKien1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module1/Cấu-trúc-điều-kiện-2/Bài-Tập/LuyenTapCauTrucDieuKien2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module1/Loop/Bài-Tập/LTLoops1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module1/Loop/Bài-Tập/LTLoops1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module1/Loop/Bài-Tập/LTLoops2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module1/Loop/Bài-Tập/LTLoops2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1_HoangBaThien/CaseStudy1/Yeu-Cau-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1_HoangBaThien/CaseStudy1/Yeu-Cau-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1_HoangBaThien/CaseStudy1/Yeu-Cau_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module1_HoangBaThien/CaseStudy1/Yeu-Cau_1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module1/Git&amp;HTML/ThucHanh/my-new-project" beforeDir="false" afterPath="$PROJECT_DIR$/module1/Git&amp;HTML/ThucHanh/my-new-project" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module1/Git&amp;HTML/ThucHanh/my-new-project/README.md.txt" beforeDir="false" />
     </list>
@@ -31,8 +26,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -51,7 +46,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="H:/Study/mobile app/Week-2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/module1/Loop/Bài-Tập" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -59,6 +54,8 @@
       <recent name="H:\codegym-1\A0720i1-HoangBaThien\Module_HoangBaThien" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\codegym-1\A0720i1-HoangBaThien\module1\Loop\Bài-Tập" />
+      <recent name="H:\codegym-1\A0720i1-HoangBaThien\module1\Cấu-trúc-điều-kiện-2\Bài-Tập" />
       <recent name="H:\codegym-1\A0720i1-HoangBaThien\module1\Biến,Kiểu dữ liệu&amp; Toán tử\Bài tập" />
     </key>
   </component>
@@ -83,6 +80,13 @@
       <workItem from="1595810174794" duration="49000" />
       <workItem from="1596254473114" duration="2801000" />
       <workItem from="1596451905023" duration="10410000" />
+      <workItem from="1596799215147" duration="5408000" />
+      <workItem from="1596807162561" duration="3271000" />
+      <workItem from="1596865697149" duration="4929000" />
+      <workItem from="1596973728368" duration="1984000" />
+      <workItem from="1597161466070" duration="1595000" />
+      <workItem from="1597337551389" duration="2295000" />
+      <workItem from="1597399647080" duration="2357000" />
     </task>
     <servers />
   </component>
